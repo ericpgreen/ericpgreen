@@ -1,0 +1,23 @@
+---
+output:
+  html_document:
+    toc_float: false
+---
+
+<br>
+
+<h5>
+I'm a psychologist and professor at [Duke University](http://globalhealth.duke.edu/people/faculty/green-eric) who studies health and technology. I'm also a Co-Founder of [Nivi](https://www.nivi.io/), a digital health company based in Boston and Nairobi, Kenya.
+</h5>
+
+<br>
+
+<center>
+<img src="img/fam.jpg" style="background:none; border:none; box-shadow:none">
+</center>
+
+<br>
+
+I grew up in Harrisburg, Pennsylvania and attended college at Bucknell University ('02) where I majored in Psychology. I also studied at the University of South Carolina where I earned degrees in Psychology (MA, '04), International Studies (MA, '06), and Clinical-Community Psychology (PhD, '08). After graduate school, I completed a postdoctoral fellowship at New York University and the Program for Survivors of Torture. In 2010, I joined the Population Council and began teaching in the NYU Master of Public Health program. I married [Eve Puffer](http://globalhealth.duke.edu/people/faculty/puffer-eve) in 2012, and we moved to Durham, North Carolina to join the faculty at Duke University. We have a son, Tucker, who loves Duke sports.
+
+

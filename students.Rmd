@@ -1,0 +1,276 @@
+---
+output:
+  html_document:
+    toc: true
+---
+
+<br>
+
+# Mentoring
+
+I mentor Duke undergraduates and graduate students, primarily those affiliated with the Global Health Institute. We have an [undergraduate major and minor in Global Health](http://globalhealth.duke.edu/education-and-training/undergraduate), and a [Master of Science of Global Health](http://globalhealth.duke.edu/education-and-training/graduate/master-of-science) degree program.
+
+<b>Graduate Students</b>: Every year I take one or two new MSc in Global Health students. Our MSc program has a student-mentor matching process that begins soon after students arrive in the fall. Please contact me early if you have an interest in joining my group. Typically students that I mentor work directly with me and my colleagues on existing studies, either on the main research protocol or a highly related sub-study. I’m unlikely to take on a student who wants to collect original data for a completely independent study. Fieldwork is tough to organize, and I think it’s in the student’s best interest to stick with a plan that has a high probability of success. The goal is to leave the program on-time with at least one publication under your belt.
+
+<b>Undergraduate Students</b>: I mentor undergraduate students through two programs: 
+
+* [Student Research Training](http://globalhealth.duke.edu/education-and-training/undergraduate/student-research-training-program) (SRT): Students apply in October to be part of a team that works together in the Spring semester in preparation for 8-weeks of summer fieldwork.
+
+* [Bass](http://globalhealth.duke.edu/education-and-training/bass-connections): Bass Connections is a university-wide initiative that provides students with greater exposure to inquiry across the disciplines, partnership with fellow students at a variety of stages in their educational career, sustained mentorship in teams, and the chance to experience the intersections of the academy and the broader world.
+
+
+<!-- CURRENT 
+<div class="container">
+-->
+
+# Students
+
+<div class="row">
+<div class="heading-title text-center">
+<h3 class="text-uppercase">Current</h3>
+</div>
+
+<!-- profile -->
+<div class="col-md-4 col-sm-4">
+<div class="team-member">
+<div class="team-img">
+<img src="img/blank.png" alt="team member" class="img-responsive" width="200">
+</div>
+<div class="team-hover">
+<div class="desk">
+<h6>Chaya Bhat (Trinity '19)</h6>
+</div>
+<div class="s-link">
+<a href="https://www.linkedin.com/in/chaya-bhat/"><i class="fa fa-linkedin"></i></a>
+</div>
+</div>
+</div>
+</div>
+
+<!-- profile -->
+<div class="col-md-4 col-sm-4">
+<div class="team-member">
+<div class="team-img">
+<img src="img/blank.png" alt="team member" class="img-responsive" width="200">
+</div>
+<div class="team-hover">
+<div class="desk">
+<h6>Anna-Karin Hess (Trinity '19)</h6>
+</div>
+<div class="s-link">
+<a href="https://www.linkedin.com/in/anna-karin-hess-1362989a/"><i class="fa fa-linkedin"></i></a>
+</div>
+</div>
+</div>
+</div>
+
+<!-- profile -->
+<div class="col-md-4 col-sm-4">
+<div class="team-member">
+<div class="team-img">
+<img src="img/amy.png" alt="team member" class="img-responsive" width="200">
+</div>
+<div class="team-hover">
+<div class="desk">
+<h6>Amy Finnegan (Sanford PhD '16)</h6>
+</div>
+<div class="s-link">
+<a href="https://www.linkedin.com/in/amy-finnegan-717a7915"><i class="fa fa-linkedin"></i></a>
+</div>
+</div>
+</div>
+</div>
+
+<!-- end row -->
+</div>
+
+
+
+<div class="row">
+
+<!-- profile -->
+<div class="col-md-4 col-sm-4">
+<div class="team-member">
+<div class="team-img">
+<img src="img/blank.png" alt="team member" class="img-responsive" width="200">
+</div>
+<div class="team-hover">
+<div class="desk">
+<h6>Lulla Kiwinda (Trinity '19)</h6>
+</div>
+<div class="s-link">
+<!--
+<a href=""><i class="fa fa-linkedin"></i></a>
+-->
+</div>
+</div>
+</div>
+</div>
+
+<!-- end row -->
+</div>
+
+
+
+
+<!-- FORMER -->
+
+<div class="row">
+<div class="heading-title text-center">
+<h3 class="text-uppercase">Former</h3>
+</div>
+
+<!-- profile -->
+<div class="col-md-4 col-sm-4">
+<div class="team-member">
+<div class="team-img">
+<img src="img/blank.png" alt="team member" class="img-responsive" width="200">
+</div>
+<div class="team-hover">
+<div class="desk">
+<h6>Christina Schmidt (Trinity '17)</h6>
+</div>
+<div class="s-link">
+<a href="https://www.linkedin.com/in/christina-schmidt-9b7674108/"><i class="fa fa-linkedin"></i></a>
+</div>
+</div>
+</div>
+</div>
+
+<!-- profile -->
+<div class="col-md-4 col-sm-4">
+<div class="team-member">
+<div class="team-img">
+<img src="img/blank.png" alt="team member" class="img-responsive" width="200">
+</div>
+<div class="team-hover">
+<div class="desk">
+<h6>Alex Whitcomb (MSc '17)</h6>
+</div>
+<div class="s-link">
+<a href="https://www.linkedin.com/in/alexandra-whitcomb-547720a2/"><i class="fa fa-linkedin"></i></a>
+</div>
+</div>
+</div>
+</div>
+
+<!-- profile -->
+<div class="col-md-4 col-sm-4">
+<div class="team-member">
+<div class="team-img">
+<img src="img/hawa.png" alt="team member" class="img-responsive" width="200">
+</div>
+<div class="team-hover">
+<div class="desk">
+<h6>Hawa Tuli (MSc '16)</h6>
+</div>
+<div class="s-link">
+<a href="https://www.linkedin.com/in/hawatuli"><i class="fa fa-linkedin"></i></a>
+</div>
+</div>
+</div>
+</div>
+
+<!-- end row -->
+</div>
+
+
+
+<div class="row">
+
+<!-- profile -->
+<div class="col-md-4 col-sm-4">
+<div class="team-member">
+<div class="team-img">
+<img src="img/yujung.png" alt="team member" class="img-responsive" width="200">
+</div>
+<div class="team-hover">
+<div class="desk">
+<h6>Yujung Choi (MSc '17)</h6>
+</div>
+<div class="s-link">
+<a href="https://www.linkedin.com/in/yujung-choi-a5749438/"><i class="fa fa-linkedin"></i></a>
+</div>
+</div>
+</div>
+</div>
+
+<!-- profile -->
+<div class="col-md-4 col-sm-4">
+<div class="team-member">
+<div class="team-img">
+<img src="img/kiera.png" alt="team member" class="img-responsive" width="200">
+</div>
+<div class="team-hover">
+<div class="desk">
+<h6>Kiera Needham (Trinity '18)</h6>
+</div>
+<div class="s-link">
+<a href="https://www.linkedin.com/in/kiera-needham-b7a66b89/"><i class="fa fa-linkedin"></i></a>
+</div>
+</div>
+</div>
+</div>
+
+<!-- profile -->
+<div class="col-md-4 col-sm-4">
+<div class="team-member">
+<div class="team-img">
+<img src="img/ishan.png" alt="team member" class="img-responsive" width="200">
+</div>
+<div class="team-hover">
+<div class="desk">
+<h6>Ishan Thakore (Trinity '15)</h6>
+</div>
+<div class="s-link">
+<a href="https://www.linkedin.com/in/ishan-thakore-4053938a"><i class="fa fa-linkedin"></i></a>
+</div>
+</div>
+</div>
+</div>
+
+<!-- end row -->
+</div>
+
+
+<div class="row">
+
+<!-- profile -->
+<div class="col-md-4 col-sm-4">
+<div class="team-member">
+<div class="team-img">
+<img src="img/mark.png" alt="team member" class="img-responsive" width="200">
+</div>
+<div class="team-hover">
+<div class="desk">
+<h6>Mark Herzog (Trinity '15)</h6>
+</div>
+<div class="s-link">
+<a href="https://www.linkedin.com/in/mark-herzog-548b7988"><i class="fa fa-linkedin"></i></a>
+</div>
+</div>
+</div>
+</div>
+
+<!-- profile -->
+<div class="col-md-4 col-sm-4">
+<div class="team-member">
+<div class="team-img">
+<img src="img/amogh.png" alt="team member" class="img-responsive" width="200">
+</div>
+<div class="team-hover">
+<div class="desk">
+<h6>Amogh Karnik (MSc '13)</h6>
+</div>
+<div class="s-link">
+<!--
+<a href="#"><i class="fa fa-linkedin"></i></a>
+-->
+</div>
+</div>
+</div>
+</div>
+
+<!-- end row -->
+</div>
+

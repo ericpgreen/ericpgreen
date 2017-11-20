@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+
+<meta charset="utf-8" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="generator" content="pandoc" />
+
+
+
+
+<title></title>
+
+<script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="site_libs/bootstrap-3.3.5/css/yeti.min.css" rel="stylesheet" />
+<script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<script src="site_libs/jqueryui-1.11.4/jquery-ui.min.js"></script>
+<link href="site_libs/tocify-1.9.1/jquery.tocify.css" rel="stylesheet" />
+<script src="site_libs/tocify-1.9.1/jquery.tocify.js"></script>
+<script src="site_libs/navigation-1.1/tabsets.js"></script>
+<link href="site_libs/font-awesome-4.5.0/css/font-awesome.min.css" rel="stylesheet" />
+<link href="site_libs/ionicons-2.0.1/css/ionicons.min.css" rel="stylesheet" />
+
+
+
+
+<style type="text/css">
+h1 {
+  font-size: 34px;
+}
+h1.title {
+  font-size: 38px;
+}
+h2 {
+  font-size: 30px;
+}
+h3 {
+  font-size: 24px;
+}
+h4 {
+  font-size: 18px;
+}
+h5 {
+  font-size: 16px;
+}
+h6 {
+  font-size: 12px;
+}
+.table th:not([align]) {
+  text-align: left;
+}
+</style>
+
+<link rel="stylesheet" href="styles.css" type="text/css" />
+
+</head>
+
+<body>
+
+<style type = "text/css">
+.main-container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+code {
+  color: inherit;
+  background-color: rgba(0, 0, 0, 0.04);
+}
+img {
+  max-width:100%;
+  height: auto;
+}
+.tabbed-pane {
+  padding-top: 12px;
+}
+button.code-folding-btn:focus {
+  outline: none;
+}
+</style>
+
+
+<style type="text/css">
+/* padding for bootstrap navbar */
+body {
+  padding-top: 45px;
+  padding-bottom: 40px;
+}
+/* offset scroll position for anchor links (for fixed navbar)  */
+.section h1 {
+  padding-top: 50px;
+  margin-top: -50px;
+}
+
+.section h2 {
+  padding-top: 50px;
+  margin-top: -50px;
+}
+.section h3 {
+  padding-top: 50px;
+  margin-top: -50px;
+}
+.section h4 {
+  padding-top: 50px;
+  margin-top: -50px;
+}
+.section h5 {
+  padding-top: 50px;
+  margin-top: -50px;
+}
+.section h6 {
+  padding-top: 50px;
+  margin-top: -50px;
+}
+</style>
+
+<script>
+// manage active state of menu based on current page
+$(document).ready(function () {
+  // active menu anchor
+  href = window.location.pathname
+  href = href.substr(href.lastIndexOf('/') + 1)
+  if (href === "")
+    href = "index.html";
+  var menuAnchor = $('a[href="' + href + '"]');
+
+  // mark it active
+  menuAnchor.parent().addClass('active');
+
+  // if it's got a parent navbar menu mark it active as well
+  menuAnchor.closest('li.dropdown').addClass('active');
+});
+</script>
+
+
+<div class="container-fluid main-container">
+
+<!-- tabsets -->
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+</script>
+
+<!-- code folding -->
+
+
+
+
+<script>
+$(document).ready(function ()  {
+
+    // move toc-ignore selectors from section div to header
+    $('div.section.toc-ignore')
+        .removeClass('toc-ignore')
+        .children('h1,h2,h3,h4,h5').addClass('toc-ignore');
+
+    // establish options
+    var options = {
+      selectors: "h1,h2,h3",
+      theme: "bootstrap3",
+      context: '.toc-content',
+      hashGenerator: function (text) {
+        return text.replace(/[.\\/?&!#<>]/g, '').replace(/\s/g, '_').toLowerCase();
+      },
+      ignoreSelector: ".toc-ignore",
+      scrollTo: 0
+    };
+    options.showAndHide = false;
+    options.smoothScroll = true;
+
+    // tocify
+    var toc = $("#TOC").tocify(options).data("toc-tocify");
+});
+</script>
+
+<style type="text/css">
+
+#TOC {
+  margin: 25px 0px 20px 0px;
+}
+@media (max-width: 768px) {
+#TOC {
+  position: relative;
+  width: 100%;
+}
+}
+
+
+.toc-content {
+  padding-left: 30px;
+  padding-right: 40px;
+}
+
+div.main-container {
+  max-width: 1200px;
+}
+
+div.tocify {
+  width: 20%;
+  max-width: 260px;
+  max-height: 85%;
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  div.tocify {
+    width: 25%;
+  }
+}
+
+@media (max-width: 767px) {
+  div.tocify {
+    width: 100%;
+    max-width: none;
+  }
+}
+
+.tocify ul, .tocify li {
+  line-height: 20px;
+}
+
+.tocify-subheader .tocify-item {
+  font-size: 0.90em;
+  padding-left: 25px;
+  text-indent: 0;
+}
+
+.tocify .list-group-item {
+  border-radius: 0px;
+}
+
+.tocify-subheader {
+  display: inline;
+}
+.tocify-subheader .tocify-item {
+  font-size: 0.95em;
+}
+
+</style>
+
+<!-- setup 3col/9col grid for toc_float and main content  -->
+<div class="row-fluid">
+<div class="col-xs-12 col-sm-4 col-md-3">
+<div id="TOC" class="tocify">
+</div>
+</div>
+
+<div class="toc-content col-xs-12 col-sm-8 col-md-9">
+
+
+
+
+<div class="navbar navbar-inverse  navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html">Eric P. Green</a>
+    </div>
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li>
+  <a href="index.html">Home</a>
+</li>
+<li>
+  <a href="bio.html">Bio</a>
+</li>
+<li>
+  <a href="research.html">Research</a>
+</li>
+<li>
+  <a href="teaching.html">Teaching</a>
+</li>
+<li>
+  <a href="http://www.globalhealthresearch.co/book/">Book</a>
+</li>
+<li>
+  <a href="students.html">Students</a>
+</li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li>
+  <a href="https://github.com/ericpgreen">
+    <span class="fa fa-github"></span>
+     
+  </a>
+</li>
+<li>
+  <a href="https://twitter.com/ericpgreen">
+    <span class="ion ion-social-twitter"></span>
+     
+  </a>
+</li>
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div><!--/.container -->
+</div><!--/.navbar -->
+
+<div class="fluid-row" id="header">
+
+
+
+
+</div>
+
+
+<p><br></p>
+<p>I study how to bring health services closer to the people who need them. My work spans the continuum from formative studies that use design thinking approaches to create new services, to large scale randomized controlled trials to estimate the impact of interventions.</p>
+<div id="perinatal-depression" class="section level1">
+<h1>Perinatal Depression</h1>
+<ul>
+<li>Developing and validating a perinatal depression screening tool in Kenya blending Western criteria with local idioms: A mixed methods study (in press) with Hawa Tuli, Edith Kwobah, Diana Menya, Irene Chesire, and Christina Schmidt, <em>Journal of Affective Disorders</em></li>
+</ul>
+</div>
+<div id="poverty-and-mental-health" class="section level1">
+<h1>Poverty and Mental Health</h1>
+<ul>
+<li><p><a href="https://www.researchgate.net/profile/Eric_Green5/publication/299501234_The_Returns_to_Microenterprise_Support_Among_the_Ultra-poor_A_Field_Experiment_in_Post-war_Uganda/links/570cd2b608ae2b772e41ef56/The-Returns-to-Microenterprise-Support-Among-the-Ultra-poor-A-Field-Experiment-in-Post-war-Uganda.pdf?_iepl%5BhomeFeedViewId%5D=MoAUZMqV1rb0eITidsjnMZAv&amp;_iepl%5Bcontexts%5D%5B0%5D=pcfhf&amp;_iepl%5BinteractionType%5D=publicationDownload&amp;origin=publication_detail&amp;ev=pub_int_prw_xdl&amp;msrp=8PQGqcj6OXlfVR5BAKxq7dmAS4gLCdPljhC8A59WHIlTL1OQ1_WAZ3EvDC1DvhYfAmCsZql_3AdhKmbLSs2C9pMR-fKl5T-9refMh0a6T3ew5PXxlqqdRySS.LPx4xXWn9_qvU9FfxOtQJY7znkFi46ekz6NH7PQplMJ4GfM6gwXBfHUI3E1zMKDiFhlRMs1v-8q4pDJutHz3sJB-Gk4c54v9inq0UQ.RL4CemZWu8g6_Kq2-ZGm6gmFjp8uK49jet8pPCgnJkwuGnftJTEL4ksIqIEhn452x4hOhOswLUj2u54HNmei11YkjK0Fu7a8xD3HYQ.OlqJA5LnVoBZJKMs5r5v9txzrCLUcTdi-V3cjqNe0qGe9FQreMR4cORd1BSFq8YMNORgeNNCZT8XT4QA29fzaaFfeN9ywpqVbW6oZg">The returns to microenterprise support among the ultra-poor: A field experiment in post-war Uganda</a> (2016) with Christopher Blattman, Julian Jamison, and Jeannie Annan, <em>American Economic Journal: Applied Economics</em> (<a href="https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/QA0R1O">surveys, data, and full replication materials</a>)</p></li>
+<li><p><a href="https://www.researchgate.net/profile/Julian_Jamison/publication/296478618_Does_poverty_alleviation_decrease_depression_symptoms_in_post-conflict_settings_A_cluster-randomized_trial_of_microenterprise_assistance_in_Northern_Uganda/links/5706e51208aefb22b0934873/Does-poverty-alleviation-decrease-depression-symptoms-in-post-conflict-settings-A-cluster-randomized-trial-of-microenterprise-assistance-in-Northern-Uganda.pdf?_iepl%5BhomeFeedViewId%5D=dbTbUBcGwY8bM5Vcfc5dmUUj&amp;_iepl%5Bcontexts%5D%5B0%5D=pcfhf&amp;_iepl%5BinteractionType%5D=publicationDownload&amp;origin=publication_detail&amp;ev=pub_int_prw_xdl&amp;msrp=2oifQnVl3yBbPOHQO3ixWHE9PnSfZTQUXDn_Htr9H82bLqsqWoL9RksxECv8N3Zv8ctkNdRQhUwcZWTPPMQMArKdq-1K_JxNE1_rr4GYirQZyJmNp310PZlC.sBOLf6GLJrjCbS7mBJKh8SR3G671x0AolscCR_0RpqAxdrFrayQ-OT4riirT8inB74YTXBCRFgfPMnXk3g1Qe4oHjBTdxjxz1KSfzw.Nl2iBCSOD5jsL3xwEkx0PNf4Ou57jxouoGUWaomqC0qpgCA-OwoO7E71wZyhc31UeIwhhbuVaF5fkWo9AcBGA8Dm0dIXnQWqBtsffg.JmqRaedH43ludNhV4wINykPalvCMpa76_fZVouakFeHdgp1IKcakU_d82lSO9c939OMZsxNRawX-JDzyW-I7DJnlXUiB3gCtvcR6VA">Does poverty alleviation decrease depression symptoms in post-conflict settings? A cluster-randomized trial of microenterprise assistance in northern Uganda</a> (2016) with Christopher Blattman, Julian Jamison, and Jeannie Annan, <em>Global Mental Health</em> (<a href="https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/QA0R1O">surveys, data, and full replication materials</a>)</p></li>
+<li><p><a href="https://www.researchgate.net/profile/Eric_Green5/publication/275046325_Women%27s_entrepreneurship_and_intimate_partner_violence_A_cluster_randomized_trial_of_microenterprise_assistance_and_partner_participation_in_post-conflict_Uganda_SSM-D-14-01580R1/links/5a121a430f7e9bd1b2c10035/Womens-entrepreneurship-and-intimate-partner-violence-A-cluster-randomized-trial-of-microenterprise-assistance-and-partner-participation-in-post-conflict-Uganda-SSM-D-14-01580R1.pdf?origin=publication_detail&amp;ev=pub_int_prw_xdl&amp;msrp=svrD-azNiDk00uzI5mO08ly2JmI2-AZ-Xnl4QucHhXjeCoYi5-bVngHPtIiMZd4oOq6d8ukRhmceEb7VMD5p0RGFi4_8Nsu9pOulfhSvTKugydZYcTjg4Gka.83YIbJMHHADIGNb-Wy80ywPbIcoQ8wtn7EvfxdqN-JDz60nSdYrPy9D5AlqBhYRlJ3DvTeN9lhE59dVVYYjHv8BlMLrfbxKk3AHJhA.yQinGWvNPusitrMOomIGKuQd07tZk5u_55GkdnjFN0TrhH23XFBCa0zbu7hDapIPk9s4Xd8WGErW0qPoPrnJpINCOK5EfK-0Z7tFFQ.fbUMCS8x3a8N4hwG3Vd83QxtqeuAL-Y0S0RLb3le7pRRItgCvL_7PzrE4FkL3vhdZu0Id3Y6MFvL7MXJl9YWYttyllwgf6HlgpoA2Q">Women’s entrepreneurship and intimate partner violence: A cluster randomized trial of microenterprise assistance and partner participation in post-conflict Uganda</a> (2015) with Christopher Blattman, Julian Jamison, and Jeannie Annan, <em>Social Science &amp; Medicine</em> (<a href="https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/QA0R1O">surveys, data, and full replication materials</a>)</p></li>
+<li><p><a href="https://www.researchgate.net/profile/Eric_Green5/publication/271754226_Promoting_Recovery_After_War_in_Northern_Uganda_Reducing_Daily_Stressors_by_Alleviating_Poverty/links/570cd66108aec783ddcd2cc2/Promoting-Recovery-After-War-in-Northern-Uganda-Reducing-Daily-Stressors-by-Alleviating-Poverty.pdf?_iepl%5BhomeFeedViewId%5D=BPnLMGN1L6B8aVZP81Khb8qNC571CjAzJ2JN&amp;_iepl%5Bcontexts%5D%5B0%5D=pcfhf&amp;_iepl%5BinteractionType%5D=publicationDownload&amp;origin=publication_detail&amp;ev=pub_int_prw_xdl&amp;msrp=Q2r4Ur9tbNuXhPNfA1x22FzcFE4nMaub1FleaVuk0TTNwI_gkTew1ygpW1DdFdE_sOVIHIh43mCAkSinnGra-I3vg9DmxzHPzdx5b1Kq9g44EFQtfcGlD3bi.6J0HGEh_JNQmGHEge4Ln0qjdHZxZV1CWwLW6Gw5eZyIq6nfDweI0J6FdF1VByPTOXb6s47WQoHHn2Dt8yEcYKYWxRNFZrUuaiWWYTQ.7l_wbdZd_OFb7pDp49NojkKzBU_CQE9mOxTfWFmuy_zUG5mQd_64V1QHT2o-YKAHnc56Fg8KV9m4P0ZiBmBXdPPt76mRW5NH4w1Qdw.XPR1H0AHpfZd2VN55ofD2tlnC8KYPJoZOnKGmBS5CBSAmklhuZT-AGpTFzd1R0S3oXQGWuE7r5qfHcsGn4H8yv9Afiul33xFEBLeOQ">Promoting recovery after war in northern Uganda: Reducing daily stressors by alleviating poverty</a> (2013) with Jeannie Annan and Moriah Brier, <em>Journal of Child &amp; Adolescent Trauma</em></p></li>
+</ul>
+</div>
+<div id="family-based-interventions" class="section level1">
+<h1>Family-Based Interventions</h1>
+<ul>
+<li><p>Impact of the 2014 Ebola virus disease outbreak in Liberia on parent preferences for harsh discipline practices: A quasi-experimental, pre-post design (in press) with Rhea Chase, John Zayzay, Amy Finnegan, Eve Puffer, <em>Global Mental Health</em></p></li>
+<li><p>Associations between fathers’ and sons’ sexual risk in rural Kenya: The potential for intergenerational transmission (2017) with Ali Giusto and Eve Puffer, <em>Journal of Adolescent Health</em></p></li>
+<li><p>A qualitative study of mechanisms underlying effects of a parenting intervention in rural Liberia (2017) with Ali Giusto, Elsa Friis, Amanda Sim, Rhea Chase, John Zayzay, and Eve Puffer, <em>European Journal of Development Research</em></p></li>
+<li><p><a href="https://www.researchgate.net/profile/Eve_Puffer/publication/298798015_A_Church-Based_Intervention_for_Families_to_Promote_Mental_Health_and_Prevent_HIV_Among_Adolescents_in_Rural_Kenya_Results_of_a_Randomized_Trial/links/57216e1d08aea92aff8b2d51/A-Church-Based-Intervention-for-Families-to-Promote-Mental-Health-and-Prevent-HIV-Among-Adolescents-in-Rural-Kenya-Results-of-a-Randomized-Trial.pdf">A church-based intervention for families to promote mental health and prevent HIV among adolescents in rural Kenya: Results of a randomized pilot trial</a> (2016) with Eve Puffer, Kathleen Sikkema, Rose Ogwang-Odhiambo, and Sherryl Broverman, <em>Journal of Consulting and Clinical Psychology</em></p></li>
+<li><p><a href="https://www.researchgate.net/profile/Eve_Puffer/publication/282553023_Parents_make_the_difference_a_randomized-controlled_trial_of_a_parenting_intervention_in_Liberia/links/563e7b7708ae8d65c01439ae/Parents-make-the-difference-a-randomized-controlled-trial-of-a-parenting-intervention-in-Liberia.pdf?_iepl%5BhomeFeedViewId%5D=CKB0Oqufk509FOBk9Zk0Njn8&amp;_iepl%5Bcontexts%5D%5B0%5D=pcfhf&amp;_iepl%5BinteractionType%5D=publicationDownload&amp;origin=publication_detail&amp;ev=pub_int_prw_xdl&amp;msrp=IhXIv92MLcAi61q4TuHOsCNbn6XoIkAkbGxR6n4enRFYDG_hMAq-GYMtdROXSkKwC3azGk1DyU-DN9RamouLHA87qltU3Wt1nGEtWFxaZepnSylLebs7jiRp.JlhFNfgPCphO2MHLRaw_lZjvocbcNEcvJpgjo0l986UFAy7oItfsoXbhzoqghZFa0xoxIRS4l9eCeVmiej4mQol2ICkp4dG4O7BWsw.pFLHb-WAAQBTACcKYCqwq8Yk3mgiU3j-kfskYtgwRvkmcLOmWub_WHmDZlBEKXbaCqmHR7YjgTzDXqcjzRU946xXQs0lfKXLqlavTQ.emsJEBBT6LZKvX75qwYel7Z9goQEj3jsIuUlX6cxTk-8A45i36oGZxJtse6coPBMs7rNAelx48M1yGce3shioNv3lywK5SVE1tkhKg">Parents Make the Difference: A randomized-controlled trial of a parenting intervention in Liberia</a> (2015) with Eve Puffer, Rhea Chase, Amanda Sim, John Zayzay, Eduardo Garcia-Rolland, and Laura Boone, <em>Global Mental Health</em></p></li>
+</ul>
+</div>
+<div id="hiv" class="section level1">
+<h1>HIV</h1>
+<ul>
+<li><p><a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5517656/">Participatory mapping in low-resource settings: Three novel methods used to engage Kenyan youth in community-based HIV prevention research</a> (2016) with Eve Puffer, Virginia Warren, and Sherryl Broverman, <em>Global Public Health</em></p></li>
+<li><p><a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4149343/">A clinical decision support system for integrating tuberculosis and HIV care in Kenya: A human-centered design approach</a> (2014) with Caricia Catalani, Keny Aggrey, Philip Owiti, Lameck Diero, Ada Yueng, Dennis Israelski, and Paul Biondich, <em>PLoS One</em></p></li>
+<li><p><a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4404590/">Do clinical decision-support reminders for medical providers improve isoniazid preventative therapy prescription rates among HIV-positive adults?: study protocol for a randomized controlled trial</a> (2015) with Caricia Catalani, Lameck Diero, Jane Carter, Adrian Gardner, Charity Ndwiga, Keny Aggrey, Philip Owiti, Dennis Israelski, and Paul Biondich</p></li>
+</ul>
+</div>
+<div id="forced-migration" class="section level1">
+<h1>Forced Migration</h1>
+<ul>
+<li><p><a href="https://www.researchgate.net/profile/Eric_Green5/publication/47556632_Reconcilable_Differences_Human_Diversity_Cultural_Relativity_and_Sense_of_Community/links/570cd8cb08ae2b772e4257b3/Reconcilable-Differences-Human-Diversity-Cultural-Relativity-and-Sense-of-Community.pdf?origin=fulltextSources_direct">Reconcilable differences? Human diversity, cultural relativity, and sense of community</a> (2011) with Greg Townley, Bret Kloos, and Margarita Franco, <em>American Journal of Community Psychology</em></p></li>
+<li><p><a href="https://www.researchgate.net/profile/Eric_Green5/publication/235916533_Facilitating_Youth_Participation_in_a_Context_of_Forced_Migration_A_Photovoice_Project_in_Northern_Uganda/links/570cda3208ae2b772e426fd8/Facilitating-Youth-Participation-in-a-Context-of-Forced-Migration-A-Photovoice-Project-in-Northern-Uganda.pdf?_iepl%5BhomeFeedViewId%5D=WkPxBdMCuMMwgqwtksSDT7De&amp;_iepl%5Bcontexts%5D%5B0%5D=pcfhf&amp;_iepl%5BinteractionType%5D=publicationDownload&amp;origin=publication_detail&amp;ev=pub_int_prw_xdl&amp;msrp=YCcc6u80GSa8MYF04DcxgiZAoV7hsxDgYl7DZ7cCqJOgcZpvZpuYFh-KXNSM00Qyw1k7wyq-p9-FC1B3xo8RZ9HszrET0b1FXe_ljuVYdNYuYZsd2fyxe08k.4UXCyx87jlsN7IMndRkVtmFmnMFQ_Ea0ovBU2Uk-PHcOuUlN1AN0weZoO5dyrxiv9cPhTzd4uuP0iMg1LY6rjZqaXshduNcfVvLpRg.vwL6K7U26nQU9EnjAdL3Ttf4BAG_BR-HBpPkphjP1Zc1klCmyKyoC4PEzSyUx14ETMUomTjlXNpsBtbPyPxmXjLACkXcWpdn5ZUMMw.MbUR02TDAwZgd4cIWSTzvGewXIjmZnhXI0vWXOQA-mt_rJdXPKuD1XkZidy-4RudxUkvgR3ZotnxusO4k1RIpI56ahEmYEIF0YHCQA">Facilitating youth participation in a context of forced migration: A photovoice project in northern Uganda</a> (2009) with Bret Kloos, <em>Journal of Refugee Studies</em></p></li>
+</ul>
+</div>
+
+
+
+</div>
+</div>
+
+</div>
+
+<script>
+
+// add bootstrap table styles to pandoc tables
+function bootstrapStylePandocTables() {
+  $('tr.header').parent('thead').parent('table').addClass('table table-condensed');
+}
+$(document).ready(function () {
+  bootstrapStylePandocTables();
+});
+
+
+</script>
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+
+</body>
+</html>

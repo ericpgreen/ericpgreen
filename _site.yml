@@ -1,0 +1,33 @@
+name: "Eric P. Green"
+output_dir: "."
+navbar:
+  title: "Eric P. Green"
+  type: inverse
+  left:
+    - text: "Home"
+      href: index.html
+    - text: "Bio"
+      href: bio.html
+    - text: "Research"
+      href: research.html
+    - text: "Teaching"
+      href: teaching.html
+    - text: "Book"
+      href: http://www.globalhealthresearch.co/book/
+    - text: "Students"
+      href: students.html
+  right:
+    - icon: fa-github
+      href: https://github.com/ericpgreen
+    - icon: ion-social-twitter
+      href: https://twitter.com/ericpgreen
+output:
+  html_document:
+    theme: yeti
+    highlight: tango
+    fig_caption: true
+    toc: true
+    toc_float:
+      collapsed: false
+      smooth_scroll: true
+    css: styles.css

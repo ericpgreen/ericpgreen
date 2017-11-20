@@ -1,0 +1,22 @@
+---
+output:
+  html_document:
+    toc_float: false
+---
+
+<br>
+<center>
+<img src="img/me.png" style="background:none; border:none; box-shadow:none; height:300px">
+<br>
+<h4>
+Hi, I'm Eric.
+</h4>
+</center>
+
+<br>
+
+<center>
+<h5>
+I'm a psychologist and professor at [Duke University](http://globalhealth.duke.edu/people/faculty/green-eric) who studies health and technology. I'm also a Co-Founder of [Nivi](https://www.nivi.io/), a digital health company based in Boston and Nairobi, Kenya.
+</h5>
+</center>
