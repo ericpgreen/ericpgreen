@@ -5,13 +5,25 @@ output:
 
 <br>
 
+<h5>
 I study how to bring health services closer to the people who need them. My work spans the continuum from formative studies that use design thinking approaches to create new services, to large scale randomized controlled trials to estimate the impact of interventions.
+</h5>
+
+<br>
+
+# Family Planning
+
+I co-founded a digital health company called [Nivi](https://www.nivi.io/) and serve as the company's Chief Scientist. Nivi’s vision is to be the most trusted source of information about women’s health. Launched in 2016, Nivi’s core product is the first digital contraceptive screening and referral service in East Africa. Anyone with a basic mobile phone can complete a free screening, receive personalized recommendations for contraceptive methods, referrals to nearby healthcare providers, and provide feedback on their experience with providers and methods. Nivi is unique in its ability to use data on women’s contraceptive preferences and behavior to bring efficiency and transparency to family planning markets, help women to make informed choices, and give healthcare providers, governments, and industry new insights and tools for advancing public health and engaging consumers on a more personal level. Nivi is easy to use, private, and free.
 
 # Perinatal Depression
+
+Depression is a leading cause of disability worldwide, and women suffering from perinatal depression are a particularly underserved population. Depression during pregnancy and in the postpartum period is associated with a number poor outcomes for women and their children, including increased maternal morbidity and mortality, poor infant health, and poor early childhood outcomes. While effective interventions exist for common mental disorders that occur during pregnancy and the postpartum period, most cases in low- and middle-income countries go untreated. We are trying to change that by creating better screening tools and developing entirely new treatment delivery channels that have the potential for a step change in expanding access to care.
 
 * Developing and validating a perinatal depression screening tool in Kenya blending Western criteria with local idioms: A mixed methods study (in press) with Hawa Tuli, Edith Kwobah, Diana Menya, Irene Chesire, and Christina Schmidt, *Journal of Affective Disorders*
 
 # Poverty and Mental Health
+
+What is the relationship between poverty and mental illness? Do interventions intended to alleviate poverty have indirect effects on mental health? I began studying these questions in 2009 with [Chris Blattman](https://chrisblattman.com/), [Jeannie Annan](http://jeannieannan.com/), and [Julian Jamison](https://www.linkedin.com/in/julian-jamison-733b36/). We partnered with [AVSI](https://www.avsi.org/en/), an Italian development agency with deep roots in Uganda, to conduct a 3-year cluster randomized trial of skills training and cash transfer program called WINGS.
 
 * [The returns to microenterprise support among the ultra-poor: A field experiment in post-war Uganda](https://www.researchgate.net/profile/Eric_Green5/publication/299501234_The_Returns_to_Microenterprise_Support_Among_the_Ultra-poor_A_Field_Experiment_in_Post-war_Uganda/links/570cd2b608ae2b772e41ef56/The-Returns-to-Microenterprise-Support-Among-the-Ultra-poor-A-Field-Experiment-in-Post-war-Uganda.pdf?_iepl%5BhomeFeedViewId%5D=MoAUZMqV1rb0eITidsjnMZAv&_iepl%5Bcontexts%5D%5B0%5D=pcfhf&_iepl%5BinteractionType%5D=publicationDownload&origin=publication_detail&ev=pub_int_prw_xdl&msrp=8PQGqcj6OXlfVR5BAKxq7dmAS4gLCdPljhC8A59WHIlTL1OQ1_WAZ3EvDC1DvhYfAmCsZql_3AdhKmbLSs2C9pMR-fKl5T-9refMh0a6T3ew5PXxlqqdRySS.LPx4xXWn9_qvU9FfxOtQJY7znkFi46ekz6NH7PQplMJ4GfM6gwXBfHUI3E1zMKDiFhlRMs1v-8q4pDJutHz3sJB-Gk4c54v9inq0UQ.RL4CemZWu8g6_Kq2-ZGm6gmFjp8uK49jet8pPCgnJkwuGnftJTEL4ksIqIEhn452x4hOhOswLUj2u54HNmei11YkjK0Fu7a8xD3HYQ.OlqJA5LnVoBZJKMs5r5v9txzrCLUcTdi-V3cjqNe0qGe9FQreMR4cORd1BSFq8YMNORgeNNCZT8XT4QA29fzaaFfeN9ywpqVbW6oZg) (2016) with Christopher Blattman, Julian Jamison, and Jeannie Annan, *American Economic Journal: Applied Economics* ([surveys, data, and full replication materials](https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/QA0R1O))
 
@@ -23,17 +35,25 @@ I study how to bring health services closer to the people who need them. My work
 
 # Family-Based Interventions
 
-* Impact of the 2014 Ebola virus disease outbreak in Liberia on parent preferences for harsh discipline practices: A quasi-experimental, pre-post design (in press) with Rhea Chase, John Zayzay, Amy Finnegan, Eve Puffer, *Global Mental Health*
+Most kids grow up in family systems, so promoting child development, health, and well-being means engaging families in prevention and treatment. Family-based work presents some interesting methodological and implementation challenges, however. How do you measure constructs like family functioning and child maltreatment? What is the best way to rigorously evaluate complex interventions? I've had the opportunity to explore these issues in Kenya and Liberia through a collaboration with [Eve Puffer](http://globalhealth.duke.edu/people/faculty/puffer-eve). She heads a research team that develops and tests family-based interventions. Some of her work is done in partnership with the [International Rescue Committee](https://www.rescue.org/).
 
-* Associations between fathers’ and sons’ sexual risk in rural Kenya: The potential for intergenerational transmission (2017) with Ali Giusto and Eve Puffer, *Journal of Adolescent Health* 
+## Parents Make the Difference
+
+* Impact of the 2014 Ebola virus disease outbreak in Liberia on parent preferences for harsh discipline practices: A quasi-experimental, pre-post design (in press) with Rhea Chase, John Zayzay, Amy Finnegan, and Eve Puffer, *Global Mental Health*
 
 * A qualitative study of mechanisms underlying effects of a parenting intervention in rural Liberia (2017) with Ali Giusto, Elsa Friis, Amanda Sim, Rhea Chase, John Zayzay, and Eve Puffer, *European Journal of Development Research*
 
-* [A church-based intervention for families to promote mental health and prevent HIV among adolescents in rural Kenya: Results of a randomized pilot trial](https://www.researchgate.net/profile/Eve_Puffer/publication/298798015_A_Church-Based_Intervention_for_Families_to_Promote_Mental_Health_and_Prevent_HIV_Among_Adolescents_in_Rural_Kenya_Results_of_a_Randomized_Trial/links/57216e1d08aea92aff8b2d51/A-Church-Based-Intervention-for-Families-to-Promote-Mental-Health-and-Prevent-HIV-Among-Adolescents-in-Rural-Kenya-Results-of-a-Randomized-Trial.pdf) (2016) with Eve Puffer, Kathleen Sikkema, Rose Ogwang-Odhiambo, and Sherryl Broverman, *Journal of Consulting and Clinical Psychology*
-
 * [Parents Make the Difference: A randomized-controlled trial of a parenting intervention in Liberia](https://www.researchgate.net/profile/Eve_Puffer/publication/282553023_Parents_make_the_difference_a_randomized-controlled_trial_of_a_parenting_intervention_in_Liberia/links/563e7b7708ae8d65c01439ae/Parents-make-the-difference-a-randomized-controlled-trial-of-a-parenting-intervention-in-Liberia.pdf?_iepl%5BhomeFeedViewId%5D=CKB0Oqufk509FOBk9Zk0Njn8&_iepl%5Bcontexts%5D%5B0%5D=pcfhf&_iepl%5BinteractionType%5D=publicationDownload&origin=publication_detail&ev=pub_int_prw_xdl&msrp=IhXIv92MLcAi61q4TuHOsCNbn6XoIkAkbGxR6n4enRFYDG_hMAq-GYMtdROXSkKwC3azGk1DyU-DN9RamouLHA87qltU3Wt1nGEtWFxaZepnSylLebs7jiRp.JlhFNfgPCphO2MHLRaw_lZjvocbcNEcvJpgjo0l986UFAy7oItfsoXbhzoqghZFa0xoxIRS4l9eCeVmiej4mQol2ICkp4dG4O7BWsw.pFLHb-WAAQBTACcKYCqwq8Yk3mgiU3j-kfskYtgwRvkmcLOmWub_WHmDZlBEKXbaCqmHR7YjgTzDXqcjzRU946xXQs0lfKXLqlavTQ.emsJEBBT6LZKvX75qwYel7Z9goQEj3jsIuUlX6cxTk-8A45i36oGZxJtse6coPBMs7rNAelx48M1yGce3shioNv3lywK5SVE1tkhKg) (2015) with Eve Puffer, Rhea Chase, Amanda Sim, John Zayzay, Eduardo Garcia-Rolland, and Laura Boone, *Global Mental Health*
 
+## READY
+
+* Associations between fathers’ and sons’ sexual risk in rural Kenya: The potential for intergenerational transmission (2017) with Ali Giusto and Eve Puffer, *Journal of Adolescent Health* 
+
+* [A church-based intervention for families to promote mental health and prevent HIV among adolescents in rural Kenya: Results of a randomized pilot trial](https://www.researchgate.net/profile/Eve_Puffer/publication/298798015_A_Church-Based_Intervention_for_Families_to_Promote_Mental_Health_and_Prevent_HIV_Among_Adolescents_in_Rural_Kenya_Results_of_a_Randomized_Trial/links/57216e1d08aea92aff8b2d51/A-Church-Based-Intervention-for-Families-to-Promote-Mental-Health-and-Prevent-HIV-Among-Adolescents-in-Rural-Kenya-Results-of-a-Randomized-Trial.pdf) (2016) with Eve Puffer, Kathleen Sikkema, Rose Ogwang-Odhiambo, and Sherryl Broverman, *Journal of Consulting and Clinical Psychology*
+
 # HIV
+
+I've worked on a number of studies that touch on issues related to HIV prevention and treatment. Most recently, I led a team in Zimbabwe developing a measure of caregiver readiness to disclose a child's HIV status to the child (NICHD 5R21HD076695-03).
 
 * [Participatory mapping in low-resource settings: Three novel methods used to engage Kenyan youth in community-based HIV prevention research](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5517656/) (2016) with Eve Puffer, Virginia Warren, and Sherryl Broverman, *Global Public Health*
 
@@ -42,6 +62,8 @@ I study how to bring health services closer to the people who need them. My work
 * [Do clinical decision-support reminders for medical providers improve isoniazid preventative therapy prescription rates among HIV-positive adults?: study protocol for a randomized controlled trial](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4404590/) (2015) with Caricia Catalani, Lameck Diero, Jane Carter, Adrian Gardner, Charity Ndwiga, Keny Aggrey, Philip Owiti, Dennis Israelski, and Paul Biondich
 
 # Forced Migration
+
+As a doctoral student just starting out in global mental health, I spent the better part of 2007 living in northern Uganda and learning about community rebuilding after decades of protracted conflict. 
 
 * [Reconcilable differences? Human diversity, cultural relativity, and sense of community](https://www.researchgate.net/profile/Eric_Green5/publication/47556632_Reconcilable_Differences_Human_Diversity_Cultural_Relativity_and_Sense_of_Community/links/570cd8cb08ae2b772e4257b3/Reconcilable-Differences-Human-Diversity-Cultural-Relativity-and-Sense-of-Community.pdf?origin=fulltextSources_direct) (2011) with Greg Townley, Bret Kloos, and Margarita Franco, *American Journal of Community Psychology*
 
