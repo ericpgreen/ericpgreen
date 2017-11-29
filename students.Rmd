@@ -34,7 +34,7 @@ I mentor Duke undergraduates and graduate students, primarily those affiliated w
 <div class="col-md-4 col-sm-4">
 <div class="team-member">
 <div class="team-img">
-<img src="img/blank.png" alt="team member" class="img-responsive" width="200">
+<img src="img/chaya.png" alt="team member" class="img-responsive" width="200">
 </div>
 <div class="team-hover">
 <div class="desk">
@@ -92,7 +92,7 @@ I mentor Duke undergraduates and graduate students, primarily those affiliated w
 <div class="col-md-4 col-sm-4">
 <div class="team-member">
 <div class="team-img">
-<img src="img/blank.png" alt="team member" class="img-responsive" width="200">
+<img src="img/lulla.png" alt="team member" class="img-responsive" width="200">
 </div>
 <div class="team-hover">
 <div class="desk">
@@ -102,6 +102,23 @@ I mentor Duke undergraduates and graduate students, primarily those affiliated w
 <!--
 <a href=""><i class="fa fa-linkedin"></i></a>
 -->
+</div>
+</div>
+</div>
+</div>
+
+<!-- profile -->
+<div class="col-md-4 col-sm-4">
+<div class="team-member">
+<div class="team-img">
+<img src="img/blank.png" alt="team member" class="img-responsive" width="200">
+</div>
+<div class="team-hover">
+<div class="desk">
+<h6>Arun Augustine (MSc '18)</h6>
+</div>
+<div class="s-link">
+<a href="https://www.linkedin.com/in/aaugustine09/"><i class="fa fa-linkedin"></i></a>
 </div>
 </div>
 </div>
@@ -124,7 +141,7 @@ I mentor Duke undergraduates and graduate students, primarily those affiliated w
 <div class="col-md-4 col-sm-4">
 <div class="team-member">
 <div class="team-img">
-<img src="img/blank.png" alt="team member" class="img-responsive" width="200">
+<img src="img/christina.png" alt="team member" class="img-responsive" width="200">
 </div>
 <div class="team-hover">
 <div class="desk">
@@ -141,7 +158,7 @@ I mentor Duke undergraduates and graduate students, primarily those affiliated w
 <div class="col-md-4 col-sm-4">
 <div class="team-member">
 <div class="team-img">
-<img src="img/blank.png" alt="team member" class="img-responsive" width="200">
+<img src="img/alex.png" alt="team member" class="img-responsive" width="200">
 </div>
 <div class="team-hover">
 <div class="desk">

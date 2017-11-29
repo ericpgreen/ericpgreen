@@ -25,7 +25,7 @@ navbar:
       icon: fa-external-link
   right:
     - icon: fa-github
-      href: "https://github.com/ericpgreen"
+      href: "https://github.com/ericpgreen/ericpgreen"
     - icon: ion-social-twitter
       href: "https://twitter.com/ericpgreen"
     - icon: fa-envelope-o
