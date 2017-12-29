@@ -19,7 +19,7 @@ I co-founded a digital health company called [Nivi](https://www.nivi.io/) and se
 
 Depression is a leading cause of disability worldwide, and women suffering from perinatal depression are a particularly underserved population. Depression during pregnancy and in the postpartum period is associated with a number poor outcomes for women and their children, including increased maternal morbidity and mortality, poor infant health, and poor early childhood outcomes. While effective interventions exist for common mental disorders that occur during pregnancy and the postpartum period, most cases in low- and middle-income countries go untreated. We are trying to change that by creating better screening tools and developing entirely new treatment delivery channels that have the potential for a step change in expanding access to care.
 
-* [Developing and validating a perinatal depression screening tool in Kenya blending Western criteria with local idioms: A mixed methods study](https://urldefense.proofpoint.com/v2/url?u=https-3A__authors.elsevier.com_a_1WBWy-5F3m9tfYnN&d=DwMFaQ&c=imBPVzF25OnBgGmVOlcsiEgHoG1i6YHLR0Sj_gZ4adc&r=Xnx2OUnha37evUh4dXebwfOFyRdFP6E6dmaGsqPyeqs&m=tJX-6xxmamRc5GPfQIRWMBbTj6DpGVKssgYBN_oV1z8&s=vYKJbED3_6bu0Lm5mr9n3ZQF-3ECalXF4GUwKujtJfQ&e=) (2017) with Hawa Tuli, Edith Kwobah, Diana Menya, Irene Chesire, and Christina Schmidt, *Journal of Affective Disorders*
+* [Developing and validating a perinatal depression screening tool in Kenya blending Western criteria with local idioms: A mixed methods study](https://urldefense.proofpoint.com/v2/url?u=https-3A__authors.elsevier.com_a_1WBWy-5F3m9tfYnN&d=DwMFaQ&c=imBPVzF25OnBgGmVOlcsiEgHoG1i6YHLR0Sj_gZ4adc&r=Xnx2OUnha37evUh4dXebwfOFyRdFP6E6dmaGsqPyeqs&m=tJX-6xxmamRc5GPfQIRWMBbTj6DpGVKssgYBN_oV1z8&s=vYKJbED3_6bu0Lm5mr9n3ZQF-3ECalXF4GUwKujtJfQ&e=) (2017) with Hawa Tuli, Edith Kwobah, Diana Menya, Irene Chesire, and Christina Schmidt, *Journal of Affective Disorders* ([surveys, data, and full replication materials](https://ericpgreen.github.io/pdeps))
 
 # Poverty and Mental Health
 
@@ -53,7 +53,7 @@ Most kids grow up in family systems, so promoting child development, health, and
 
 # HIV
 
-I've worked on a number of studies that touch on issues related to HIV prevention and treatment. Most recently, I led a team in Zimbabwe developing a measure of caregiver readiness to disclose a child's HIV status to the child (NICHD 5R21HD076695-03).
+I've worked on a number of studies that touch on issues related to HIV prevention and treatment. Most recently, I led a team in Zimbabwe [developing a measure of caregiver readiness to disclose a child's HIV status to the child](https://ericpgreen.github.io/r2d2/) (NICHD 5R21HD076695-03).
 
 * [Participatory mapping in low-resource settings: Three novel methods used to engage Kenyan youth in community-based HIV prevention research](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5517656/) (2016) with Eve Puffer, Virginia Warren, and Sherryl Broverman, *Global Public Health*
 
