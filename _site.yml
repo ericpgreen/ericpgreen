@@ -23,6 +23,9 @@ navbar:
     - text: "Nivi"
       href: "https://www.nivi.io/"
       icon: fa-external-link
+    - text: "Medium"
+      href: "https://medium.com/@ericpgreen"
+      icon: fa-external-link
   right:
     - icon: fa-github
       href: "https://github.com/ericpgreen/ericpgreen"
