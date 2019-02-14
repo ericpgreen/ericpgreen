@@ -23,9 +23,8 @@
 <link href="site_libs/tocify-1.9.1/jquery.tocify.css" rel="stylesheet" />
 <script src="site_libs/tocify-1.9.1/jquery.tocify.js"></script>
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
-<link href="site_libs/font-awesome-5.0.13/css/fa-svg-with-js.css" rel="stylesheet" />
-<script src="site_libs/font-awesome-5.0.13/js/fontawesome-all.min.js"></script>
-<script src="site_libs/font-awesome-5.0.13/js/fa-v4-shims.min.js"></script>
+<link href="site_libs/font-awesome-5.1.0/css/all.css" rel="stylesheet" />
+<link href="site_libs/font-awesome-5.1.0/css/v4-shims.css" rel="stylesheet" />
 <link href="site_libs/ionicons-2.0.1/css/ionicons.min.css" rel="stylesheet" />
 
 
@@ -87,6 +86,9 @@ img {
 button.code-folding-btn:focus {
   outline: none;
 }
+summary {
+  display: list-item;
+}
 </style>
 
 
@@ -101,7 +103,6 @@ body {
   padding-top: 50px;
   margin-top: -50px;
 }
-
 .section h2 {
   padding-top: 50px;
   margin-top: -50px;
@@ -121,6 +122,43 @@ body {
 .section h6 {
   padding-top: 50px;
   margin-top: -50px;
+}
+.dropdown-submenu {
+  position: relative;
+}
+.dropdown-submenu>.dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -6px;
+  margin-left: -1px;
+  border-radius: 0 6px 6px 6px;
+}
+.dropdown-submenu:hover>.dropdown-menu {
+  display: block;
+}
+.dropdown-submenu>a:after {
+  display: block;
+  content: " ";
+  float: right;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 5px 0 5px 5px;
+  border-left-color: #cccccc;
+  margin-top: 5px;
+  margin-right: -10px;
+}
+.dropdown-submenu:hover>a:after {
+  border-left-color: #ffffff;
+}
+.dropdown-submenu.pull-left {
+  float: none;
+}
+.dropdown-submenu.pull-left>.dropdown-menu {
+  left: -100%;
+  margin-left: 10px;
+  border-radius: 6px 0 6px 6px;
 }
 </style>
 
@@ -142,18 +180,77 @@ $(document).ready(function () {
 });
 </script>
 
-
 <div class="container-fluid main-container">
 
 <!-- tabsets -->
+
+<style type="text/css">
+.tabset-dropdown > .nav-tabs {
+  display: inline-table;
+  max-height: 500px;
+  min-height: 44px;
+  overflow-y: auto;
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs > li.active:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
+  content: "&#xe258;";
+  border: none;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs > li.active {
+  display: block;
+}
+
+.tabset-dropdown > .nav-tabs > li > a,
+.tabset-dropdown > .nav-tabs > li > a:focus,
+.tabset-dropdown > .nav-tabs > li > a:hover {
+  border: none;
+  display: inline-block;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
+  display: block;
+  float: none;
+}
+
+.tabset-dropdown > .nav-tabs > li {
+  display: none;
+}
+</style>
+
 <script>
 $(document).ready(function () {
   window.buildTabsets("TOC");
 });
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open')
+  });
+});
 </script>
 
 <!-- code folding -->
-
 
 
 
@@ -352,12 +449,8 @@ div.tocify {
 <div id="mentoring" class="section level1">
 <h1>Mentoring</h1>
 <p>I mentor Duke undergraduates and graduate students, primarily those affiliated with the Global Health Institute. We have an <a href="http://globalhealth.duke.edu/education-and-training/undergraduate">undergraduate major and minor in Global Health</a>, and a <a href="http://globalhealth.duke.edu/education-and-training/graduate/master-of-science">Master of Science of Global Health</a> degree program.</p>
-<p><b>Graduate Students</b>: Every year I take one or two new MSc in Global Health students. Our MSc program has a student-mentor matching process that begins soon after students arrive in the fall. Please contact me early if you have an interest in joining my group. Typically students that I mentor work directly with me and my colleagues on existing studies, either on the main research protocol or a highly related sub-study. I’m unlikely to take on a student who wants to collect original data for a completely independent study. Fieldwork is tough to organize, and I think it’s in the student’s best interest to stick with a plan that has a high probability of success. The goal is to leave the program on-time with at least one publication under your belt.</p>
-<p><b>Undergraduate Students</b>: I mentor undergraduate students through two programs:</p>
-<ul>
-<li><p><a href="http://globalhealth.duke.edu/education-and-training/undergraduate/student-research-training-program">Student Research Training</a> (SRT): Students apply in October to be part of a team that works together in the Spring semester in preparation for 8-weeks of summer fieldwork.</p></li>
-<li><p><a href="http://globalhealth.duke.edu/education-and-training/bass-connections">Bass</a>: Bass Connections is a university-wide initiative that provides students with greater exposure to inquiry across the disciplines, partnership with fellow students at a variety of stages in their educational career, sustained mentorship in teams, and the chance to experience the intersections of the academy and the broader world.</p></li>
-</ul>
+<p><b>Graduate Students</b>: Most years I take one or two new MSc in Global Health students. Our MSc program has a student-mentor matching process that begins soon after students arrive in the fall. Please contact me early if you have an interest in joining my group. Typically students that I mentor work directly with me and my colleagues on existing studies, either on the main research protocol or a highly related sub-study. I’m unlikely to take on a student who wants to collect original data for a completely independent study. Fieldwork is tough to organize, and I think it’s in the student’s best interest to stick with a plan that has a high probability of success. The goal is to leave the program on-time with at least one publication under your belt.</p>
+<p><b>Undergraduate Students</b>: I’ve mentored undergraduate students through several programs including the <a href="http://globalhealth.duke.edu/education-and-training/undergraduate/student-research-training-program">Student Research Training</a>, or SRT program, and <a href="http://globalhealth.duke.edu/education-and-training/bass-connections">Bass Connections</a>. I also work with undergraduate students through independent studies.</p>
 </div>
 <div id="trainees" class="section level1">
 <h1>Trainees</h1>
@@ -365,13 +458,14 @@ div.tocify {
 <h2>Current</h2>
 <ul>
 <li><a href="https://www.linkedin.com/in/chaya-bhat/">Chaya Bhat</a>, Trinity ’19</li>
-<li><a href="https://www.linkedin.com/in/anna-karin-hess-1362989a/">Anna-Karin Hess</a>, Trinity ’19</li>
-<li><a href="">Lulla Kiwinda</a>, Trinity ’19</li>
+<li><a href="https://www.linkedin.com/in/yihuan-lai-8a7274147/">Yihuan Lai</a>, MSc ’20</li>
 </ul>
 </div>
 <div id="former" class="section level2">
 <h2>Former</h2>
 <ul>
+<li><a href="https://www.linkedin.com/in/anna-karin-hess-1362989a/">Anna-Karin Hess</a>, Trinity ’19</li>
+<li><a href="">Lulla Kiwinda</a>, Trinity ’19</li>
 <li>Stephanie Jaffe, Trinity ’20</li>
 <li><a href="https://www.linkedin.com/in/shyam-pradheep/">Shyam Pradheep</a>, Trinity ’20</li>
 <li>Phoebe Kiburi, Trinity ’20</li>
