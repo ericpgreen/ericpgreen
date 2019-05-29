@@ -6,20 +6,20 @@ output:
 
 <br>
 
-# 2018-19 Academic Year
+# 2019-20 Academic Year
 
 ## Fall
 
 * GLHLTH 702, [Global Health Research](http://www.globalhealthresearch.co/)
-* GLHLTH 660/PSY 611/RIGHTS 660/CULANTH 611, [Global Mental Health](https://ericpgreen.github.io/gmh/index.html)
+* GLHLTH 371/PSY 309, [Global Health Research](http://www.globalhealthresearch.co/)
 
 ## Spring
 
 * GLHLTH 499, Global Health Capstone
+* GLHLTH 660/PSY 611/RIGHTS 660/CULANTH 611, [Global Mental Health](https://ericpgreen.github.io/gmh/index.html)
 
 # Past Courses
 
-* GLHLTH 371/PSY 309, [Global Health Research](http://www.globalhealthresearch.co/)
 * GLHLTH 89S, [Finding What Works to Improve Health and End Extreme Poverty around the World](http://ericpgreen.github.io/whatworks/index.html)
 * GLHLTH 571, [Introduction to Global Maternal and Child Health](https://github.com/ericpgreen/MCH)
 * GLHLTH 173FS, [Technology for Health](http://bit.ly/t4hsyllabus)

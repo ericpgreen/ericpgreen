@@ -11,11 +11,15 @@ I study how to bring health services closer to the people who need them. My work
 
 <br>
 
-# Family Planning
+# Digital Health and Data Science
 
-I co-founded a digital health company called [Nivi](https://www.nivi.io/) and serve as the company's Chief Scientist. Nivi’s vision is to be the most trusted source of information about women’s health. Launched in 2016, Nivi’s core product is the first digital contraceptive screening and referral service in East Africa. Anyone with a basic mobile phone can complete a free screening, receive personalized recommendations for contraceptive methods, referrals to nearby healthcare providers, and provide feedback on their experience with providers and methods. Nivi is unique in its ability to use data on women’s contraceptive preferences and behavior to bring efficiency and transparency to family planning markets, help women to make informed choices, and give healthcare providers, governments, and industry new insights and tools for advancing public health and engaging consumers on a more personal level. Nivi is easy to use, private, and free.
+I co-founded a digital health company called [Nivi](https://www.nivi.io/) and serve as an advisor. Launched in 2016, Nivi’s core product is the first digital contraceptive screening and referral service in East Africa. Anyone with a basic mobile phone can complete a free screening, receive personalized recommendations for contraceptive methods, referrals to nearby healthcare providers, and provide feedback on their experience with providers and methods. Nivi is unique in its ability to use data on women’s contraceptive preferences and behavior to bring efficiency and transparency to family planning markets, help women to make informed choices, and give healthcare providers, governments, and industry new insights and tools for advancing public health and engaging consumers on a more personal level. Nivi is easy to use, private, and free.
 
-* [Developing a digital marketplace for family planning: Pilot randomized encouragement trial]() (2018) with Arun Augustine, Violet Naanyu, Anna-Karin Hess, and Lulla Kiwinda, *Journal of Medical Internet Research* ([surveys, data, and full replication materials](https://ericpgreen.github.io/nivi-red))
+* [Developing a digital marketplace for family planning: Pilot randomized encouragement trial](https://www.jmir.org/2018/7/e10756/) (2018) with Arun Augustine, Violet Naanyu, Anna-Karin Hess, and Lulla Kiwinda, *Journal of Medical Internet Research* ([surveys, data, and full replication materials](https://ericpgreen.github.io/nivi-red))
+
+* ["What is the best method of family planning for me?": a text mining analysis of messages between users and agents of a digital health service in Kenya](https://gatesopenresearch.org/articles/3-1475) (2019) with Alex Whitcomb, Cynthia Kahumbura, Joseph Rosen, Sidd Goyal, Daphine Achieng, and Ben Bellows, *Gates Open Research* ([data, and full replication materials](https://github.com/ericpgreen/asknivi-text-mining-2019))
+
+* A traumatic brain injury (TBI) prognostic model to support in-hospital triage in a low income country: a machine learning based approach (in press) with Thiago Augusto Hernandes Rocha, Cyrus Elahi, Núbia Cristina da Silva, Francis Sakita, Anthony Fuller, Michael M. Haglund, Blandina T. Mmbaga, Catherine A. Staton, and Joao Ricardo Nickenig Vissoci, forthcoming in the Journal of Neurosurgery.
 
 # Perinatal Depression
 
@@ -23,9 +27,9 @@ Depression is a leading cause of disability worldwide, and women suffering from 
 
 * [Developing and validating a perinatal depression screening tool in Kenya blending Western criteria with local idioms: A mixed methods study](https://urldefense.proofpoint.com/v2/url?u=https-3A__authors.elsevier.com_a_1WBWy-5F3m9tfYnN&d=DwMFaQ&c=imBPVzF25OnBgGmVOlcsiEgHoG1i6YHLR0Sj_gZ4adc&r=Xnx2OUnha37evUh4dXebwfOFyRdFP6E6dmaGsqPyeqs&m=tJX-6xxmamRc5GPfQIRWMBbTj6DpGVKssgYBN_oV1z8&s=vYKJbED3_6bu0Lm5mr9n3ZQF-3ECalXF4GUwKujtJfQ&e=) (2018) with Hawa Tuli, Edith Kwobah, Diana Menya, Irene Chesire, and Christina Schmidt, *Journal of Affective Disorders* ([surveys, data, and full replication materials](https://ericpgreen.github.io/pdeps))
 
-* [Creating a mental health chatbot to treat perinatal depression in Kenya (Part 1): Why chatbots?](https://medium.com/@ericpgreen/healthymoms-36975a4b8c1b)
+* We're exploring how artificial intelligence can be used to expand access to treatment for perinatal depression. Our team of researchers at Duke University, service providers at Jacaranda Health in Kenya, and AI experts at X2AI are adapting an evidence-based treatment called Thinking Healthy for automated delivery via SMS in Kenya. Read more about our work at [healthymoms.app](https://healthymoms.app/).
 
-* [Creating a mental health chatbot to treat perinatal depression in Kenya (Part 2): User-centered design and testing](https://medium.com/@ericpgreen/healthymoms-a4c573fbfb7f)
+* [Expanding access to depression treatment in Kenya through automated psychological support: Protocol for a single-case experimental design pilot study](https://www.researchprotocols.org/2019/4/e11800/) (2019) with Nicholas Pearson, Sathyanath Rajasekharan, Michiel Rauws, Angela Joerin, Edith Kwobah, Christine Musyimi, Chaya Bhat, Rachel Jones, and Yihuan Lai, *JMIR Res Protoc*.
 
 # Poverty and Mental Health
 
@@ -64,6 +68,8 @@ Most kids grow up in family systems, so promoting child development, health, and
 # HIV
 
 I've worked on a number of studies that touch on issues related to HIV prevention and treatment. Most recently, I led a team in Zimbabwe [developing a measure of caregiver readiness to disclose a child's HIV status to the child](https://ericpgreen.github.io/r2d2/) (NICHD 5R21HD076695-03).
+
+* [The prevalence and process of pediatric HIV disclosure: A population-based prospective cohort study in Zimbabwe](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0215659) (2019) with Amy Finnegan, Lisa Langhaug, Katie Schenk, Eve Puffer, Simbarashe Rusakaniko, Yujung Choi, and Simbarashe Mahaso, *PLoS One*. ([surveys, data, and full replication materials](https://ericpgreen.github.io/r2d2/prevalence.html))
 
 * [Participatory mapping in low-resource settings: Three novel methods used to engage Kenyan youth in community-based HIV prevention research](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5517656/) (2016) with Eve Puffer, Virginia Warren, and Sherryl Broverman, *Global Public Health*
 
