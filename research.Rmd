@@ -71,6 +71,8 @@ I've worked on a number of studies that touch on issues related to HIV preventio
 
 * [The prevalence and process of pediatric HIV disclosure: A population-based prospective cohort study in Zimbabwe](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0215659) (2019) with Amy Finnegan, Lisa Langhaug, Katie Schenk, Eve Puffer, Simbarashe Rusakaniko, Yujung Choi, and Simbarashe Mahaso, *PLoS One*. ([surveys, data, and full replication materials](https://ericpgreen.github.io/r2d2/prevalence.html))
 
+* Caregiver self-efficacy to talk about sex predicts conversations about HIV transmission risk with perinatally infected young people in Zimbabwe (in press) with Langhaug, L., Finnegan, A., Schenk, K., Puffer, E.S., and Rusakaniko, S., *AIDS Care*.
+
 * [Participatory mapping in low-resource settings: Three novel methods used to engage Kenyan youth in community-based HIV prevention research](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5517656/) (2016) with Eve Puffer, Virginia Warren, and Sherryl Broverman, *Global Public Health*
 
 * [A clinical decision support system for integrating tuberculosis and HIV care in Kenya: A human-centered design approach](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4149343/) (2014) with Caricia Catalani, Keny Aggrey, Philip Owiti, Lameck Diero, Ada Yueng, Dennis Israelski, and Paul Biondich, *PLoS One*
