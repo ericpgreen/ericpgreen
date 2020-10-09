@@ -23,6 +23,7 @@
 <link href="site_libs/tocify-1.9.1/jquery.tocify.css" rel="stylesheet" />
 <script src="site_libs/tocify-1.9.1/jquery.tocify.js"></script>
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
+<script src="site_libs/accessible-code-block-0.0.1/empty-anchor.js"></script>
 <link href="site_libs/font-awesome-5.1.0/css/all.css" rel="stylesheet" />
 <link href="site_libs/font-awesome-5.1.0/css/v4-shims.css" rel="stylesheet" />
 <link href="site_libs/ionicons-2.0.1/css/ionicons.min.css" rel="stylesheet" />
@@ -427,13 +428,12 @@ div.tocify {
 <h1>Trainees</h1>
 <div id="current" class="section level2">
 <h2>Current</h2>
-<ul>
-<li><a href="https://www.linkedin.com/in/yihuan-lai-8a7274147/">Yihuan Lai</a>, MSc ’20</li>
-</ul>
+<p>Duke Bass, <a href="https://bassconnections.duke.edu/project-teams/coping-covid-19-using-behavioral-science-and-digital-health-promote-healthy-families">Coping with COVID-19: Using Behavioral Science and Digital Health to Promote Healthy Families (2020-2021)</a></p>
 </div>
 <div id="former" class="section level2">
 <h2>Former</h2>
 <ul>
+<li><a href="https://www.linkedin.com/in/yihuan-lai-8a7274147/">Yihuan Lai</a>, MSc ’20</li>
 <li><a href="https://www.linkedin.com/in/chaya-bhat/">Chaya Bhat</a>, Trinity ’19</li>
 <li><a href="https://www.linkedin.com/in/anna-karin-hess-1362989a/">Anna-Karin Hess</a>, Trinity ’19</li>
 <li>Lulla Kiwinda, Trinity ’19</li>
@@ -504,7 +504,7 @@ $(document).ready(function ()  {
       theme: "bootstrap3",
       context: '.toc-content',
       hashGenerator: function (text) {
-        return text.replace(/[.\\/?&!#<>]/g, '').replace(/\s/g, '_').toLowerCase();
+        return text.replace(/[.\\/?&!#<>]/g, '').replace(/\s/g, '_');
       },
       ignoreSelector: ".toc-ignore",
       scrollTo: 0

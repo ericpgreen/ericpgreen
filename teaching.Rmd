@@ -6,7 +6,7 @@ output:
 
 <br>
 
-# 2019-20 Academic Year
+# 2020-21 Academic Year
 
 ## Fall
 
@@ -16,7 +16,7 @@ output:
 ## Spring
 
 * GLHLTH 371/PSY 309, [Global Health Research](http://www.themethodsection.com/)
-* GLHLTH 660/PSY 611/RIGHTS 660/CULANTH 611, [Global Mental Health](https://ericpgreen.github.io/gmh/index.html)
+* GLHLTH 590, [Data science and visualization with R](https://learn.themethodsection.com/duke/590/) (formerly "Visualizing the Pandemic: An introduction to visualization and data science in R")
 
 # Past Courses
 
@@ -24,3 +24,4 @@ output:
 * GLHLTH 571, [Introduction to Global Maternal and Child Health](https://github.com/ericpgreen/MCH)
 * GLHLTH 173FS, [Technology for Health](http://bit.ly/t4hsyllabus)
 * GLHLTH 499, Global Health Capstone
+* GLHLTH 660/PSY 611/RIGHTS 660/CULANTH 611, [Global Mental Health](https://ericpgreen.github.io/gmh/index.html)

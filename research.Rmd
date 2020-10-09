@@ -31,6 +31,9 @@ Depression is a leading cause of disability worldwide, and women suffering from 
 
 * [Expanding access to depression treatment in Kenya through automated psychological support: Protocol for a single-case experimental design pilot study](https://www.researchprotocols.org/2019/4/e11800/) (2019) with Nicholas Pearson, Sathyanath Rajasekharan, Michiel Rauws, Angela Joerin, Edith Kwobah, Christine Musyimi, Chaya Bhat, Rachel Jones, and Yihuan Lai, *JMIR Res Protoc*.
 
+* [Expanding access to depression treatment in Kenya through automated psychological support: Development and usability study](https://formative.jmir.org/2020/10/e17895) (2020) with Yihuan Lai, Nicholas Pearson, Sathyanath Rajasekharan, Michiel Rauws, Angela Joerin, Edith Kwobah, Christine Musyimi, Chaya Bhat, Rachel Jones, and Eve Puffer, *JMIR Formative Research*.
+
+
 # Poverty and Mental Health
 
 What is the relationship between poverty and mental illness? Do interventions intended to alleviate poverty have indirect effects on mental health? I began studying these questions in 2009 with [Chris Blattman](https://chrisblattman.com/), [Jeannie Annan](http://jeannieannan.com/), and [Julian Jamison](https://www.linkedin.com/in/julian-jamison-733b36/). We partnered with [AVSI](https://www.avsi.org/en/), an Italian development agency with deep roots in Uganda, to conduct a 3-year cluster randomized trial of skills training and cash transfer program called WINGS.
@@ -64,6 +67,8 @@ Most kids grow up in family systems, so promoting child development, health, and
 * [Associations between fathers’ and sons’ sexual risk in rural Kenya: The potential for intergenerational transmission](https://www.researchgate.net/profile/Ali_Giusto/publication/315928873_Associations_Between_Fathers%27_and_Sons%27_Sexual_Risk_in_Rural_Kenya_The_Potential_for_Intergenerational_Transmission/links/5a123ff00f7e9bd1b2c10262/Associations-Between-Fathers-and-Sons-Sexual-Risk-in-Rural-Kenya-The-Potential-for-Intergenerational-Transmission.pdf?_iepl%5BhomeFeedViewId%5D=eoJ9erZgaWE7ON0asMo9GGnA&_iepl%5Bcontexts%5D%5B0%5D=pcfhf&_iepl%5BinteractionType%5D=publicationDownload&origin=publication_detail&ev=pub_int_prw_xdl&msrp=FrTR-79FzX4ss8PPVd_1BRRZpsKpgVavPqKLxLDIzPrPCoXwGHXqCBpBrAiX7iULCs8DvQsgTl_w3J_0HTxG-wqYZRv4IwyM52bENb4vC5CPA1MBp6Y0cCTZ.XmYBe-Bg_Rg_FeT-31as8gOzARVCCgrAoNZ3jUwZyn0CtsKBciiLEZbl_bO2W7o4iaJUc3d7wehnPs6evc7IWsKC4QE0e-NZCF5Qsg.E5Irq4laAODZZw_V4oyxIDfAdWKRMxxQhjeDVSt3GTxFcqeVoS77OJbDgxZZWDFCI-DhlSpO4p1DwhMuE8B4_zmcNER7mJ5ZCm_NHA.rT3CCtT18GIUr-wr_Yol6Z9B2j8RxXSHecwTcZvhBNDCfktlvH7Uhau0T8VL7wuBIeW92WRTE90ewbmIBnH5RnANbuHHr9Htt3HTrw) (2017) with Ali Giusto and Eve Puffer, *Journal of Adolescent Health* 
 
 * [A church-based intervention for families to promote mental health and prevent HIV among adolescents in rural Kenya: Results of a randomized pilot trial](https://www.researchgate.net/profile/Eve_Puffer/publication/298798015_A_Church-Based_Intervention_for_Families_to_Promote_Mental_Health_and_Prevent_HIV_Among_Adolescents_in_Rural_Kenya_Results_of_a_Randomized_Trial/links/57216e1d08aea92aff8b2d51/A-Church-Based-Intervention-for-Families-to-Promote-Mental-Health-and-Prevent-HIV-Among-Adolescents-in-Rural-Kenya-Results-of-a-Randomized-Trial.pdf) (2016) with Eve Puffer, Kathleen Sikkema, Rose Ogwang-Odhiambo, and Sherryl Broverman, *Journal of Consulting and Clinical Psychology*
+
+* [Family functioning and mental health changes following a family therapy intervention in Kenya: a pilot trial](https://doi.org/10.1007/s10826-020-01816-z) (2020) with Eve Puffer, Elsa Healy, Ali Giusto, Bonnie Kaiser, Puja Patel, and David Ayuku, *Journal of Child and Family Studies*
 
 # HIV
 
